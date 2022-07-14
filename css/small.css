@@ -13,9 +13,11 @@ body{
 
 }
 header, footer{
+    position: relative;
+
     border:1px solid #000;
     background-color: skyblue;
-    align-content: center;
+    justify-content: center;
 }
 ul{
     margin: 0;
@@ -33,9 +35,7 @@ li a:hover {
     background-color: #300;
 }
 main{
-    display: grid;
-    grid-template-columns:200px auto 200px;
-    grid-template-rows:repeat(200px);
+
     background-color: gray;
 }
 .task li{
@@ -44,5 +44,11 @@ main{
 .weather{
     border: 1px solid #000;
     grid-column: 1;
-    grid-row:1/2 ;
+}
+.temple{
+    border:1px solid #000;
+}
+.forecast{
+    border:1px solid #000;
+
 }
