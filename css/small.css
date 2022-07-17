@@ -28,26 +28,24 @@ header, footer{
     position: relative;
     width: 100px;
 }
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
-}
 nav ul li {
     display:inline;
     position: relative;
     align-content:center;
     margin-left:120px;
     margin-bottom: 5px;
-    padding: 5px;
+    padding:10px ;
+    font-size: large;
+    font-weight: bold;
     background-color: azure;
+    text-decoration-line: none;
 
 
 
 }
 li a:hover {
-    background-color: whitesmoke;
+    background-color: lightgrey;
+    
 }
 main{
     padding: 2rem;
