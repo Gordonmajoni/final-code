@@ -72,9 +72,12 @@ main{
 .submenu{
     display:none;
 }
-ul li a.submenu{
+ul li .submenu{
     display: block;
     background-color: ;
+}
+.date{
+    justify-content: center;
 }
 
 /*----------reservations-------------------*/
@@ -90,4 +93,12 @@ form{
 }
 .submitBtn{
     background-color:yellow;
+}
+/*----------services--------*/
+.services{
+    border:1px solid #000;
+}
+.anemities{
+    border:1px solid #000;
+
 }
