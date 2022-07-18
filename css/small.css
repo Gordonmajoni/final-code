@@ -21,21 +21,31 @@ header, footer{
     background-color: skyblue;
     justify-content: center;
 }
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
+.text{
+    align-content: center;
 }
-li{
+.media{
+    position: relative;
+    width: 100px;
+}
+nav ul li {
     display:inline;
-    justify-items:center;
-    padding: 30px;
+    position: relative;
+    align-content:center;
+    margin-left:120px;
+    margin-bottom: 5px;
+    padding:10px ;
+    font-size: large;
+    font-weight: bold;
+    background-color: azure;
+    text-decoration-line: none;
+
 
 
 }
 li a:hover {
-    background-color: whitesmoke;
+    background-color: lightgrey;
+    
 }
 main{
     padding: 2rem;
@@ -59,6 +69,14 @@ main{
     padding: 5px;
     background-color: yellow;
 }
+.submenu{
+    display:none;
+}
+ul li a.submenu{
+    display: block;
+    background-color: ;
+}
+
 /*----------reservations-------------------*/
 form{
     background-color: gray;
