@@ -1,1 +1,42 @@
 
+[
+{
+    "name":"Durban Temple",
+    "addresse":"2 Izinga Drive Umhlanga",
+    "telephone":27311400240,
+    "email":"log to send email",
+    "services":["Patron housing available","Distribution center nearby","No cafeteria available"],
+    " temple closure schedule":[2022 ,"Saturday" ,1,"August"]
+
+
+},
+{
+    "name":"Dallas Texas Temple",
+    "addresse":"6363 willow ln Dallas united sates",
+    "telephone":19729911273,
+    "email":"log to send email",
+    "services":[" No Patron housing available","Distribution center nearby","No cafeteria available"],
+    " temple closure schedule":[2022 ,"Saturday" ,10,"August"]
+ 
+},
+
+{
+    "name":"Draper Utah Temple",
+    "addresse":"14065 Canyon Vista Ln united sates",
+    "telephone":18015764240,
+    "email":"log to send email",
+    "services":[" No Patron housing available","Distribution center nearby","No cafeteria available"],
+    " temple closure schedule":[2022 ,"Saturday" ,15,"August"]
+ 
+},
+{
+    "name":"Belem Brazil Temple",
+    "addresse":"Av.Centenario da Assembleia de Deus ,200 Brazil",
+    "telephone":19729911273,
+    "email":"log to send email",
+    "services":[" No Patron housing available","Distribution center nearby","No cafeteria available"],
+    " Milestones":[2016 ,"Saturday" ,3,"April"]
+ 
+}
+
+]
