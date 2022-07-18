@@ -73,7 +73,7 @@ main{
 .submenu{
     display:none;
 }
-ul li .submenu{
+ul li a.submenu{
     display: block;
     background-color: ;
 }
@@ -99,7 +99,7 @@ form{
 .services{
     border:1px solid #000;
 }
-.anemities{
+.amenities{
     border:1px solid #000;
 
 }
