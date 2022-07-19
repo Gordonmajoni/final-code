@@ -8,7 +8,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 body{
-    width:900px;
+    width:100%;
     height: auto;
 
     
@@ -74,7 +74,7 @@ main{
 }
 ul li .submenu{
     display: block;
-    background-color: ;
+    background-color:lightgray ;
 }
 .date{
     justify-content: center;
