@@ -16,10 +16,11 @@ body{
 }
 header, footer{
     position: relative;
+    
 
     border:1px solid #000;
     background-color: skyblue;
-    justify-content: center;
+    align-content: center;
 }
 .text{
     align-content: center;
@@ -32,7 +33,7 @@ nav ul li {
     display:inline;
     position: relative;
     align-content:center;
-    margin-left:120px;
+    margin-left:100px;
     margin-bottom: 5px;
     padding:10px ;
     font-size: large;
@@ -72,9 +73,9 @@ main{
 .submenu{
     display:none;
 }
-ul li .submenu{
+ul li a.submenu{
     display: block;
-    background-color:lightgray ;
+    
 }
 .date{
     justify-content: center;
@@ -98,7 +99,13 @@ form{
 .services{
     border:1px solid #000;
 }
-.anemities{
+.amenities{
     border:1px solid #000;
 
 }
+div.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  }
+  
+  

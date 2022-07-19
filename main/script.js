@@ -58,3 +58,42 @@ function myFunction() {
  }
  apiFetch();
  //------------------------------------//
+ const data = 'FINAL-CODE-2/infor/temp.json';
+const cards = document.querySelector('.cards');
+
+async function getTemples(){
+  let response = await fetch(data);
+  if(response.ok) {
+    let data = await response.json();
+    //console.log(data);
+    buildTempleCards(data);
+  } else{
+    throw  error(response.statusText)
+  }
+}
+
+
+function buildTempleCards(data){
+  data.temples.forEach(temple => {
+    let card = document.createElement('section');
+    let h2 = document.createElement('h2');
+    let p = document.createElement('p');
+   // let img = document.createElement('img');//
+    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute .
+    
+    h2.innerHTML=`${temple.name} `;
+    p.innerHTML= `adresse:${temple.adresse}`;
+   // img.setAttribute('src', prophet.imageurl);//
+
+    img.setAttribute('loading', 'lazy');
+  
+    // Add/append the section(card) with the h2 element
+    card.append(h2);
+    card.appendChild(p);
+    //card.append(img);//
+    cards.append(card);
+
+ });
+}
+getTemples();
+
