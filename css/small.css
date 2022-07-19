@@ -75,7 +75,7 @@ main{
 }
 ul li a.submenu{
     display: block;
-    background-color: ;
+    
 }
 .date{
     justify-content: center;
@@ -103,3 +103,9 @@ form{
     border:1px solid #000;
 
 }
+div.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  }
+  
+  
